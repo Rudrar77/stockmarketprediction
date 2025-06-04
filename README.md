@@ -7,7 +7,6 @@ This project involves predicting Apple's stock price using two approaches:
 
 The dataset used spans from **January 2, 2020** to **January 17, 2025**.
 
----
 
 ## 📌 Tasks Performed
 
@@ -19,8 +18,6 @@ The dataset used spans from **January 2, 2020** to **January 17, 2025**.
 * Normalized features and target using `MinMaxScaler`.
 * Created sequences of 60 previous time steps to feed into the LSTM model.
 * Split the dataset into training and testing sets (no shuffling).
-
----
 
 ### 2. 📈 Data Visualization & Correlation Analysis
 
@@ -45,7 +42,6 @@ sns.heatmap(so, annot=True)
 plt.show()
 ```
 
----
 
 ## 🤖 Model 1: LSTM (Long Short-Term Memory)
 
@@ -62,7 +58,6 @@ plt.show()
 
 📊 Plot: Actual vs Predicted AAPL Closing Price using LSTM
 
----
 
 ## 🔀 Model 2: ARIMA + LSTM Hybrid Model
 
@@ -91,7 +86,6 @@ plt.show()
 
 📊 Plot: Actual vs Predicted AAPL Closing Price using ARIMA + LSTM
 
----
 
 ## ✅ Conclusion
 
@@ -102,7 +96,3 @@ plt.show()
 
 * The **ARIMA + LSTM hybrid model** dramatically improved prediction accuracy.
 * This showcases the power of combining **linear (ARIMA)** and **nonlinear (LSTM)** models for time series forecasting.
-
----
-
-📁 *Next Step:* Add model saving, loading, and forecasting future prices.
